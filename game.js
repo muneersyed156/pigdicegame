@@ -13,7 +13,7 @@ var c1 = document.getElementById("circle1")
 var c2 = document.getElementById("circle2")
 var p1 = 1
 var p2 = 0
-//song.play()
+song.play()
 player1.style.color = "black"
 player2.style.color = "grey"
 ts1.style.color = "black"
