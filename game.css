@@ -1,0 +1,98 @@
+.board{
+    position: relative;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:30px;
+    border:1px solid black;
+    box-shadow: 0px 2px 5px black;
+    height:88vh;
+    background-color: whitesmoke;
+}
+
+.heads{
+    margin-top:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#new{
+    cursor: pointer;
+}
+#circle1,#circle2{
+    margin-top:40px;
+    margin-left: 30px;
+    position: absolute;
+}
+.details{
+    margin-top:20px;
+}
+.player{
+    margin-left:20px;
+}
+.active{
+    background-color: grey;
+}
+.playername{
+    margin-top:30px;
+    margin-left:150px;
+    font-size: 30px;
+}
+
+.score{
+    margin-left: 190px;
+    margin-top:20px;
+    font-size: 70px;
+}
+
+.currentdetails{
+    margin-top:200px;
+    margin-left:170px;
+    width:75px;
+    height:90px;
+    width:120px;
+    background-color: coral;
+    box-shadow: 0px 2px 5px black;
+}
+.current{
+    margin-left:15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.currentscore{
+    margin-top: 20px;
+    margin-left:50px;
+    font-size: 35px;
+    color:white;
+}
+.images{
+    margin-left:150px;
+    margin-top:100px;
+}
+.deactive{
+    display:none;
+}
+.scroll{
+    background-color: coral;
+    color:white;
+    border:1px solid coral;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#roll{
+    margin-left:150px;
+    margin-top:200px;
+    padding: 3px 6px 3px 6px;
+    outline:none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#hold{
+    padding: 3px 6px 3px 6px;
+    margin-left:165px;
+    margin-top:20px;
+    border:none;
+    outline:none;
+    background-color: white;
+    cursor: pointer;
+}
